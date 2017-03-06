@@ -3,109 +3,73 @@
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
+		<meta name="description" content="Персональная страница Fullstack PHP программиста Шерстнева Никиты" />
 		<meta name="keywords" content="" />
-		<title>Задачник</title>
-		<link rel="stylesheet" type="text/css" href="/css/style.css" />
-		<script src="/js/jquery-1.6.2.js" type="text/javascript"></script>
-		
+		<title>Шерстнев Никита - Fullstack PHP Developer</title>
+        <link rel="stylesheet" type="text/css" href="/view/templates/base/css/style.css" />
 	</head>
 	<body>
-		<div id="wrapper">
-			<div id="header">
-				<div id="logo">
-					<a href="/">ОЛОЛОША</span> <span class="cms">TEAM</span></a>
-				</div>
-				<div id="menu">
-					<ul>
-						<li class="first active"><a href="/">Главная</a></li>
-						<li><a href="/services">Услуги</a></li>
-						<li><a href="/portfolio">Портфолио</a></li>
-						<li class="last"><a href="/contacts">Контакты</a></li>
-					</ul>
-					<br class="clearfix" />
-				</div>
-			</div>
-			<div id="page">
-				<div id="sidebar">
-					<div class="side-box">
-						<h3>Случайная цитата</h3>
-						<p align="justify" class="quote">
-						«Сайт, как живой организм, изменяется и развивается.
-						Нельзя сразу написать идеальный вариант и на этом откланяться - это утопия»
-						</p>
-						<p align="justify" class="quote"><!-- &copy; Vitaly Swipe -->
-						«Все должно быть очень просто, как текстовый файл и при этом функционально
-						и тогда пользователи от нас уйдут»
-						</p>
-						<p align="justify" class="quote">
-						«Критика - это когда критик объясняет автору, как сделал бы он, если бы умел»
-						</p>
-						<p align="justify" class="quote"><!-- &copy; Vitaly Swipe -->
-						«Сумасшедшим становиться тот, кто попытался разобраться в этом сумасшедшем мире»
-						</p>
-						<p align="justify" class="quote">
-						«Опытный разработчик знает, какой выбор ведет к поставленной цели, в то время как
-						новичок каждый раз делает шаг в неизвестность»
-						</p>
-					</div>
-					<div class="side-box">
-						<h3>Основное меню</h3>
-						<ul class="list">
-							<li class="first "><a href="/">Главная</a></li>
-							<li><a href="/services">Услуги</a></li>
-							<li><a href="/portfolio">Портфолио</a></li>
-							<li class="last"><a href="/contacts">Контакты</a></li>
-						</ul>
-					</div>
-				</div>
-				<div id="content">
-					<div class="box">
-						
-					</div>
-					<br class="clearfix" />
-				</div>
-				<br class="clearfix" />
-			</div>
-			<div id="page-bottom">
-				<div id="page-bottom-sidebar">
-					<h3>Наши контакты</h3>
-					<ul class="list">
-						<li class="first">icq: 199199538</li>
-						<li>skypeid: vitalyswipe</li>
-						<li class="last">email: vitalyswipe@gmail.com</li>
-					</ul>
-				</div>
-				<div id="page-bottom-content">
-					<h3>О Компании</h3>
-					<p>
-Вот дом.
-Который построил Джек.
-
-А это пшеница.
-Которая в тёмном чулане хранится
-В доме,
-Который построил Джек.
-
-А это весёлая птица-синица,
-Которая ловко ворует пшеницу,
-Которая в тёмном чулане хранится
-В доме,
-Который построил Джек.
-
-Вот кот,
-Который пугает и ловит синицу,
-Которая ловко ворует пшеницу,
-Которая в тёмном чулане хранится
-В доме,
-Который построил Джек.
-					</p>
-				</div>
-				<br class="clearfix" />
-			</div>
-		</div>
-		<div id="footer">
-			<a href="/">ОЛОЛОША TEAM</a> &copy; 2012</a>
-		</div>
+        <header class="layout">
+            <div class="header">
+                <img 
+                    class="header__img"
+                    src="/view/templates/base/assets/photo.jpg"
+                    alt="Фогография профиля"
+                >
+                <h1 class="header__title">
+                    Fullstack PHP Developer -  Шерстнев Никита
+                </h1>
+            </div>
+        </header>
+        <article class="layout">
+            <div class="article">
+                <p>
+                    С Марта 2015 года работаю в RNTI Media Holding Web программистом. Занимаюсь разработкой и поддержкой сайтов сети городов Про Город, например <a class="link" href="http://progorod43.ru" target="_blank">progorod43.ru</a> 
+                <p>
+                <p>
+                    Моими задачами является:
+                </p>
+                <ul>
+                    <li>
+                        рефакторинг легаси кода; 
+                    </li>
+                    <li>
+                        верстка форм, меню, блоков, разделов, статичных страниц, лонгридов;
+                    </li>
+                    <li>
+                        создание и оптимизация запросов MySQL; 
+                    </li>
+                    <li>
+                        написание и доработка функционала сайтов;
+                    </li>
+                </ul>
+                <p>
+                    В 2016 году провели редизайн сайтов и перевели код к модели MVC. За счет этого смогли увечить скорость работы сайтов и снизить нагрузку на сервера.
+                </p>
+            </div>
+        </article>
+        <footer class="layout">
+            <div class="footer">
+                <p class="contact__text">
+                    Вы можете связаться со мной несколькими способами:
+                </p>
+                <div class="contact__links">
+                    <a 
+                        class="link" 
+                        href="https://vk.com/niksher" 
+                        target="_blank"
+                    >
+                        ВКонтакте
+                    </a>
+                    <a 
+                        class="link" 
+                        href="skype:niksher18?chat" 
+                        target="_blank"
+                    >
+                        Skype - niksher18
+                    </a>
+                </div>
+            </div>
+        </footer>
 	</body>
 </html>
