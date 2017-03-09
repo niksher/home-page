@@ -23,4 +23,6 @@ mb_internal_encoding("UTF-8");
 setlocale(LC_TIME, "ru_RU.UTF-8");
 
 
-
+ini_set('display_errors', 1);
+error_reporting(E_WARNING);
+ini_set('error_log', __SITE_DIR__ . '/logs/php_errors.log');

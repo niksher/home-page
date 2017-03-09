@@ -1,11 +1,7 @@
 <?php
 
-
-spl_autoload_extensions(".php");
-spl_autoload_register("my_autoload");
-
 function my_autoload ($pClassName) {
-    include_once(__DIR__ . "/" . $pClassName . ".php");
+  $classPath = str_replace("\\", "/" ,__SITE_DIR__ . "/classes/" . $pClassName . ".php");
+   include_once $classPath;
 }
-
-
+spl_autoload_register("my_autoload");
